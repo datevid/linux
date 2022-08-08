@@ -11,6 +11,9 @@ sudo apt-get install elementary-desktop
 # uninstall elementary desktop
 sudo apt autoremove --purge elementary-desktop
 
-
+#Solucionar: Los siguientes paquetes tienen dependencias incumplidas
+sudo apt-get autoclean
+sudo apt-get update
+sudo apt-get -f install
 
 
