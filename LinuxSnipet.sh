@@ -16,4 +16,7 @@ sudo apt-get autoclean
 sudo apt-get update
 sudo apt-get -f install
 
+# lista las n primeras lineas de un archivo 
+# más en: https://www.geeksforgeeks.org/tail-command-linux-examples/?ref=leftbar-rightbar
+tail -n 3 state.txt
 
