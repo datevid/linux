@@ -20,3 +20,5 @@ sudo apt-get -f install
 # más en: https://www.geeksforgeeks.org/tail-command-linux-examples/?ref=leftbar-rightbar
 tail -n 3 state.txt
 
+# See information System Operative
+cat /etc/os-release
