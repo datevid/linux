@@ -1,5 +1,11 @@
+[caja/list-view]
+default-column-order=['name', 'size', 'type', 'date_modified', 'date_accessed', 'date_created', 'extension', 'group', 'where', 'mime_type', 'octal_permissions', 'owner', 'permissions', 'selinux_context', 'size_on_disk']
+default-visible-columns=['name', 'size', 'type', 'date_modified']
+
 [caja/preferences]
 always-use-location-entry=true
+date-format='iso'
+default-folder-viewer='list-view'
 
 [caja/window-state]
 geometry='800x550+559+236'
