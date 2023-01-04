@@ -24,7 +24,8 @@ super + f2
 ## Phrases:
 
 setEnvPy:
-activa el entorno virtual de python
+
+Activa el entorno virtual de python
 ```
 source ~/env/bin/activate
 ```
