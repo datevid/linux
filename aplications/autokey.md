@@ -23,14 +23,13 @@ super + f2
 ```
 ## Phrases:
 
-setEnvPy:
-
+#### setEnv:
 Activa el entorno virtual de python
 ```
 source ~/env/bin/activate
 ```
 ## Scripts:
-#### setDate
+#### setdate
 setdate
 ```
 # Enter script code
@@ -45,7 +44,7 @@ def main():
 
 main()
 ```
-#### setDatetime
+#### setdatetime
 setdatetime
 ```
 # Enter script code
