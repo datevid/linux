@@ -77,3 +77,18 @@ def main():
 main()
 ```
 
+#### setOption
+setOption
+```
+choices = ["something", "something else", "a third thing"]
+
+retCode, choice = dialog.list_menu(choices)
+if retCode == 0:
+    if choice == "something":
+        keyboard.send_keys("primera opcion")
+    if choice == "something else":
+        keyboard.send_keys("segunda opcion")
+    if choice == "a third thing":
+        keyboard.send_keys("tercera opcion")
+        
+```
