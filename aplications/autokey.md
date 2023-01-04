@@ -30,3 +30,19 @@ Activa el entorno virtual de python
 source ~/env/bin/activate
 ```
 ## Scripts:
+#### setDate
+setdate
+```
+# Enter script code
+import autokey
+
+def main():
+    # Ejecutar el comando "date"
+    output = system.exec_command("date '+%Y-%m-%d'")
+
+    # Enviar la salida al teclado
+    keyboard.send_keys(output)
+
+main()
+```
+
