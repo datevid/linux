@@ -29,8 +29,8 @@ Activa el entorno virtual de python
 source ~/env/bin/activate
 ```
 ## Scripts:
-#### setdate
-setdate
+#### setDate
+setDate
 ```
 # Enter script code
 import autokey
@@ -44,8 +44,8 @@ def main():
 
 main()
 ```
-#### setdatetime
-setdatetime
+#### setDatetime
+setDatetime
 ```
 # Enter script code
 import autokey
@@ -59,3 +59,21 @@ def main():
 
 main()
 ```
+
+#### setDatedialog
+setDatedialog
+```
+# Enter script code
+import autokey
+
+def main():
+    # Ejecutar el comando "date"
+    output = system.exec_command("date '+%Y-%m-%d'")
+
+    # Enviar la salida al teclado
+    msg=output    
+    dialog.info_dialog(title="The date is:", message=msg, width="200")
+
+main()
+```
+
