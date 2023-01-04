@@ -1,5 +1,5 @@
 # Autokey
-
+## definition
 Autokey es una aplicación de software libre para automatizar tareas en el sistema operativo GNU/Linux. Con Autokey, puedes ejecutar una amplia variedad de comandos y scripts en el sistema operativo utilizando la función system.exec_command(). Algunos ejemplos de comandos que puedes ejecutar con esta función incluyen:
 
 * Abrir aplicaciones o documentos: `system.exec_command("gedit")`, `system.exec_command("evince documento.pdf")`
@@ -11,3 +11,21 @@ Autokey es una aplicación de software libre para automatizar tareas en el siste
 * Realizar tareas de red: `system.exec_command("ping 8.8.8.8")`, `system.exec_command("curl http://www.example.com")`
 
 Estos son solo algunos ejemplos, y puedes ejecutar cualquier comando o script que puedas ejecutar en la línea de comandos de tu sistema operativo. La función system.exec_command() también permite especificar opciones adicionales, como el directorio de trabajo o la salida de los comandos. Consulta la documentación de Autokey para obtener más información.
+
+## Global Shortcut:
+Phrases:
+```
+super + f1
+```
+Scripts:
+```
+super + f2
+```
+## Phrases:
+
+setEnvPy:
+activa el entorno virtual de python
+```
+source ~/env/bin/activate
+```
+## Scripts:
