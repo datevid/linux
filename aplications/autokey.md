@@ -45,4 +45,18 @@ def main():
 
 main()
 ```
+#### setDatetime
+setdatetime
+```
+# Enter script code
+import autokey
 
+def main():
+    # Ejecutar el comando "date"
+    output = system.exec_command("date '+%Y-%m-%d %T'")
+
+    # Enviar la salida al teclado
+    keyboard.send_keys(output)
+
+main()
+```
