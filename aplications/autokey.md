@@ -28,6 +28,22 @@ Activa el entorno virtual de python
 ```
 source ~/env/bin/activate
 ```
+#### setMainJava:
+command: setMainJava
+```
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
+}
+```
+#### setLorem:
+Inserta 2 párrafos Lorem ipsum
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed posuere enim. Ut nec enim ut mi eleifend bibendum id id elit. Sed iaculis sem sed eros suscipit pretium. Sed accumsan magna nunc, et porttitor arcu cursus eget. Cras at mi non mauris bibendum sodales. Fusce pellentesque tincidunt dictum. Integer sodales sagittis eros quis congue. Nam ipsum dui, consectetur tempor ultrices vel, pharetra eget justo.
+
+Nulla et elit vel sapien dapibus tempus. Suspendisse id tortor sit amet est pellentesque pulvinar. Phasellus commodo sollicitudin elit, sit amet elementum urna euismod vestibulum. Quisque non neque a elit porta auctor. Morbi finibus ex orci, nec tincidunt dui egestas et. Nunc elementum cursus orci eget dignissim. Vivamus iaculis mauris dui, sit amet efficitur augue pulvinar et. Aenean ut rhoncus mauris. Sed nec dolor nibh. Etiam mollis massa eu aliquet fringilla. Sed rhoncus turpis non luctus consequat. Sed eget tincidunt velit, a mollis urna. 
+```
 ## Scripts:
 #### setDate
 setDate
