@@ -92,3 +92,18 @@ if retCode == 0:
         keyboard.send_keys("tercera opcion")
         
 ```
+
+#### simular Ctrl+tab en terminal
+ctrl+tab no trabaja en los terminales; puedes simularlo enviando el ctrl+page_down
+```
+# Enter script code
+import autokey
+
+def main():
+
+    # Enviar la salida al teclado
+    keyboard.send_keys("<ctrl>+<page_down>")
+
+main()
+        
+```
