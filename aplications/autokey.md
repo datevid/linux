@@ -109,7 +109,7 @@ if retCode == 0:
         
 ```
 
-#### simular Ctrl+tab en terminal
+#### setCtrlTab (simular Ctrl+tab en terminal)
 ctrl+tab no trabaja en los terminales; puedes simularlo enviando el ctrl+page_down
 
 Activar el HotKey y setear las teclas ctrl+tab
@@ -127,7 +127,7 @@ main()
 ```
 Probarlo en un terminal
 
-#### simular shift+Ctrl+tab en terminal
+#### setShiftCtrlTab (simular shift+Ctrl+tab en terminal)
 shift+ctrl+tab no trabaja en los terminales; puedes simularlo enviando el ctrl+page_up
 
 Activar el HotKey y setear las teclas ctrl+tab
