@@ -127,6 +127,24 @@ main()
 ```
 Probarlo en un terminal
 
+#### simular shift+Ctrl+tab en terminal
+shift+ctrl+tab no trabaja en los terminales; puedes simularlo enviando el ctrl+page_up
+
+Activar el HotKey y setear las teclas ctrl+tab
+```
+# Enter script code
+import autokey
+
+def main():
+
+    # Enviar la salida al teclado
+    keyboard.send_keys("<ctrl>+<page_up>")
+
+main()
+        
+```
+Probarlo en un terminal
+
 #### getFront
 Permite ver que librería/componente gráfico se está usando
 
