@@ -15,11 +15,11 @@ Estos son solo algunos ejemplos, y puedes ejecutar cualquier comando o script qu
 ## Global Shortcut:
 Phrases:
 ```
-super + f1
+ctrl+<
 ```
 Scripts:
 ```
-super + f2
+alt+ctrl+<
 ```
 ## Phrases:
 
