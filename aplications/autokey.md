@@ -177,6 +177,5 @@ elif "qt" in process_name:
 # If anything else happens:
 else:
     # Do nothing:
-    pass
-        
+    pass     
 ```
