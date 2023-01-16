@@ -1,2 +1,2 @@
 # linux
-Linux snipets, code and more
+Linux snipets, code and more.
