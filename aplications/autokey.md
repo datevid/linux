@@ -125,6 +125,7 @@ if retCode == 0:
 
 #### setCtrlTab (simular Ctrl+tab en terminal)
 ctrl+tab no trabaja en los terminales; puedes simularlo enviando el ctrl+page_down
+Puede interferir con idea y productos de JetBrains
 
 Activar el HotKey y setear las teclas ctrl+tab
 ```
