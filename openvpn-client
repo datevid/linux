@@ -1,0 +1,19 @@
+1. Ingresa a la terminal de linux Mint y escribe el siguiente comando que permite la instalacion del cliente openvpn
+
+```
+sudo apt-get install openvpn
+```
+
+2. copia el archivo cliente.ovpn a un lugar seguro
+
+```
+sudo cp /ruta/al/archivo.ovpn /etc/openvpn/
+```
+
+3. Ahora, inicia la conexión VPN. Para ello, escribe el siguiente comando y presiona Enter:
+
+```
+sudo openvpn /etc/openvpn/nombre_archivo.ovpn
+```
+
+4. Si deseas inicia sesión remota vía rds a una pc Windows usando remmina
