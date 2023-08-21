@@ -13,4 +13,6 @@ Enter file in which to save the key (/home/user/.ssh/id_ed25519):
 
 4. Copia id_pub en sus credenciales de acceso en GitHub y GitLab
 
-5. Enjoit
+5. Enjoit. Puede revisar más detalles de generación de credenciales en las siguientes direcciones:
+- [GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [GitLab](https://docs.gitlab.com/ee/user/ssh.html#generate-an-ssh-key-pair)
